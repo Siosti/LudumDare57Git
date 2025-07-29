@@ -680,7 +680,7 @@ MonoBehaviour:
     defaultAcceleration: 10
     defaultDeceleration: 15
     speedUpSpeed: 10
-    speedUpAcceleration: 20
+    speedUpAcceleration: 30
     speedUpDeceleration: 15
     speedUpController: {fileID: 5899607437543633301}
 --- !u!114 &293188125418192905

@@ -46,6 +46,14 @@ PrefabInstance:
       propertyPath: OnDeath.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2871636149233403585}
+    - target: {fileID: 966192718204725466, guid: 2fea4681340b8bd4f8a3af74e21ddeda, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 966192718204725466, guid: 2fea4681340b8bd4f8a3af74e21ddeda, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1330203709976407204, guid: 2fea4681340b8bd4f8a3af74e21ddeda, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -86,13 +94,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3457511361348847357, guid: 2fea4681340b8bd4f8a3af74e21ddeda, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3627311390199493195, guid: 2fea4681340b8bd4f8a3af74e21ddeda, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 38.19
+      value: -2.27
       objectReference: {fileID: 0}
     - target: {fileID: 3627311390199493195, guid: 2fea4681340b8bd4f8a3af74e21ddeda, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -30.26
+      value: -27.6
       objectReference: {fileID: 0}
     - target: {fileID: 3919031817436125844, guid: 2fea4681340b8bd4f8a3af74e21ddeda, type: 3}
       propertyPath: m_LocalBounds.m_Center.x
@@ -110,10 +122,22 @@ PrefabInstance:
       propertyPath: m_LocalBounds.m_Extent.y
       value: 5.2767496
       objectReference: {fileID: 0}
+    - target: {fileID: 4170626692349493291, guid: 2fea4681340b8bd4f8a3af74e21ddeda, type: 3}
+      propertyPath: parameters.speedUpAcceleration
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 4212575099084281957, guid: 2fea4681340b8bd4f8a3af74e21ddeda, type: 3}
       propertyPath: OnBathyscapheEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1064191428467624713}
+    - target: {fileID: 7537365563498496201, guid: 2fea4681340b8bd4f8a3af74e21ddeda, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7537365563498496201, guid: 2fea4681340b8bd4f8a3af74e21ddeda, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7917373751557866125, guid: 2fea4681340b8bd4f8a3af74e21ddeda, type: 3}
       propertyPath: playerControlsProvider
       value: 
@@ -445,6 +469,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 9044501802675285405}
+    - target: {fileID: 2159840039465714537, guid: 122aa68025c782a47867dc54b1d8228d, type: 3}
+      propertyPath: swapSpriteAndValues.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159840039465714537, guid: 122aa68025c782a47867dc54b1d8228d, type: 3}
+      propertyPath: swapSpriteAndValues.Array.data[2].<Value>k__BackingField
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159840039465714537, guid: 122aa68025c782a47867dc54b1d8228d, type: 3}
+      propertyPath: swapSpriteAndValues.Array.data[2].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 21300000, guid: 50f7d5bbd6023934698c54bf42780614, type: 3}
     - target: {fileID: 2389697962632248245, guid: 122aa68025c782a47867dc54b1d8228d, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
