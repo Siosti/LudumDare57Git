@@ -48,9 +48,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1950002978813923786, guid: 6e615e98186522f4e8ae28a438c5aced, type: 3}
+      propertyPath: m_SortingLayer
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950002978813923786, guid: 6e615e98186522f4e8ae28a438c5aced, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1237817199
+      objectReference: {fileID: 0}
     - target: {fileID: 5282092640208908323, guid: 6e615e98186522f4e8ae28a438c5aced, type: 3}
       propertyPath: m_Name
-      value: Fish
+      value: Far Midground Fish
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199511925209963325, guid: 6e615e98186522f4e8ae28a438c5aced, type: 3}
+      propertyPath: m_LightOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199511925209963325, guid: 6e615e98186522f4e8ae28a438c5aced, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199511925209963325, guid: 6e615e98186522f4e8ae28a438c5aced, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[0]
+      value: -1237817199
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199511925209963325, guid: 6e615e98186522f4e8ae28a438c5aced, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[1]
+      value: 2077254217
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -23,9 +23,6 @@ namespace MovingObjectSystem
 
         private void FixedUpdate()
         {
-            if (_currentWaypoint == null)
-                return;
-
             Vector3 targetPosition = _currentWaypoint;
             transform.position = Vector3.MoveTowards(transform.position, targetPosition, movementSpeed * Time.fixedDeltaTime);
 
@@ -49,17 +46,17 @@ namespace MovingObjectSystem
 
         private void SelectNextWaypoint()
         {
-            if (waypointsProvider.Waypoints.Count <= 0)
+            if (waypointsProvider.Waypoints.Length <= 0)
                 return;
 
             if (moveRandomly)
             {
-                _currentWaypointIndex = Random.Range(0, waypointsProvider.Waypoints.Count);
+                _currentWaypointIndex = Random.Range(0, waypointsProvider.Waypoints.Length);
             }
             else
             {
                 _currentWaypointIndex++;
-                if (_currentWaypointIndex >= waypointsProvider.Waypoints.Count)
+                if (_currentWaypointIndex >= waypointsProvider.Waypoints.Length)
                     _currentWaypointIndex = 0;
             }
 

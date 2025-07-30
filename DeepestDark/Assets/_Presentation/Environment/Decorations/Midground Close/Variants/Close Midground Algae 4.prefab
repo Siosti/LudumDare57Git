@@ -12,6 +12,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Close Midground Algae 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_InstanceId
+      value: -469810
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6667347423956925828, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

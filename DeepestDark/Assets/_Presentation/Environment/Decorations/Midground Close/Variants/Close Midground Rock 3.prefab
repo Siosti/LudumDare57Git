@@ -12,6 +12,82 @@ PrefabInstance:
       propertyPath: m_Name
       value: Close Midground Rock 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_InstanceId
+      value: -433462
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePathHash
+      value: -1289471102
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_LocalBounds.m_Center.x
+      value: 0.26212287
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_LocalBounds.m_Center.y
+      value: -2.4448123
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_LocalBounds.m_Extent.x
+      value: 3.337369
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_LocalBounds.m_Extent.y
+      value: 0.6889625
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[0].x
+      value: -3.075246
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[0].y
+      value: -2.8216238
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[1].x
+      value: -2.802114
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[1].y
+      value: -1.7826046
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[2].x
+      value: 3.599492
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[2].y
+      value: -1.7558497
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[3].x
+      value: 3.445926
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[3].y
+      value: -2.3873975
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[4].x
+      value: 1.4924723
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[4].y
+      value: -2.555737
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[5].x
+      value: 1.9046798
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[5].y
+      value: -3.1337748
+      objectReference: {fileID: 0}
     - target: {fileID: 6667347423956925828, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

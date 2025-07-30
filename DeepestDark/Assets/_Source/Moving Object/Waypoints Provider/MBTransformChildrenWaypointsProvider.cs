@@ -1,20 +1,32 @@
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using UnityEngine;
 
 namespace MovingObjectSystem.WaypointsProvider
 {
     public class MBTransformChildrenWaypointsProvider : AMBWaypointsProvider
     {
-        private readonly List<Vector3> _waypoints = new();
+        private Vector3[] _waypoints;
 
-        public override ReadOnlyCollection<Vector3> Waypoints { get { return _waypoints.AsReadOnly(); } }
+        public override Vector3[] Waypoints
+        {
+            get
+            {
+                if (_waypoints == null)
+                    CollectWaypoints();
 
-        private void Start()
+                return _waypoints;
+            }
+        }
+
+        public void CollectWaypoints()
         {
             Transform[] transforms = GetComponentsInChildren<Transform>();
-            foreach (Transform transform in transforms)
-                _waypoints.Add(transform.position);
+
+            _waypoints = new Vector3[transforms.Length];
+
+            for (int i = 0; i < transforms.Length; i++)
+            {
+                _waypoints[i] = transforms[i].position;
+            }
         }
     }
 }

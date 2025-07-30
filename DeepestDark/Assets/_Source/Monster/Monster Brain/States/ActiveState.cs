@@ -27,14 +27,14 @@ namespace MonsterBrainSystem
             
             _stateMachine = new(still);
 
-            _stateMachine.AddTransition(still, patrol, () => objectives.Route.Count > 0);
-            _stateMachine.AddTransition(patrol, still, () => objectives.Route.Count <= 0);
+            _stateMachine.AddTransition(still, patrol, () => objectives.PatrolRoute.Length > 0);
+            _stateMachine.AddTransition(patrol, still, () => objectives.PatrolRoute.Length <= 0);
 
             _stateMachine.AddTransition(still, chase, () => AwarenessLevel >= 1.0f);
             _stateMachine.AddTransition(patrol, chase, () => AwarenessLevel >= 1.0f);
 
-            _stateMachine.AddTransition(chase, still, () => AwarenessLevel <= 0.0f && objectives.Route.Count <= 0);
-            _stateMachine.AddTransition(chase, patrol, () => AwarenessLevel <= 0.0f && objectives.Route.Count > 0);
+            _stateMachine.AddTransition(chase, still, () => AwarenessLevel <= 0.0f && objectives.PatrolRoute.Length <= 0);
+            _stateMachine.AddTransition(chase, patrol, () => AwarenessLevel <= 0.0f && objectives.PatrolRoute.Length > 0);
 
             _stateMachine.AddTransition(chase, still, chase.ChaseFinished);
             _stateMachine.AddTransition(chase, patrol, chase.ChaseFinished);

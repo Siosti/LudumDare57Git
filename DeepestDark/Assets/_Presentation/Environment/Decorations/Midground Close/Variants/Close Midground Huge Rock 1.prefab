@@ -10,7 +10,63 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 376682892781269185, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
       propertyPath: m_Name
-      value: Close Midground Huge Rock 4
+      value: Close Midground Huge Rock 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_InstanceId
+      value: -428410
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePathHash
+      value: 1376592338
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_LocalBounds.m_Center.x
+      value: 0.09988022
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_LocalBounds.m_Center.y
+      value: -5.9262724
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_LocalBounds.m_Extent.x
+      value: 15.515442
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_LocalBounds.m_Extent.y
+      value: 1.1658735
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[0].x
+      value: -11.753258
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[0].y
+      value: -7.092146
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[1].x
+      value: -15.415562
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[1].y
+      value: -4.8935738
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[2].x
+      value: 15.348974
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[2].y
+      value: -4.760399
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[3].x
+      value: 15.615323
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042004277219720884, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
+      propertyPath: m_ShapePath.Array.data[3].y
+      value: -7.092146
       objectReference: {fileID: 0}
     - target: {fileID: 6667347423956925828, guid: 4ae4c158b73083d499c9454530c3f6ed, type: 3}
       propertyPath: m_LocalPosition.x

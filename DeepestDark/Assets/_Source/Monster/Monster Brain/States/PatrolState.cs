@@ -40,15 +40,15 @@ namespace MonsterBrainSystem
 
         private void MoveToNextWaypoint()
         {
-            if (_objectives.Route.Count <= 0)
+            if (_objectives.PatrolRoute.Length <= 0)
                 return;
 
-            if (_nextWaypointIndex + 1 < _objectives.Route.Count)
+            if (_nextWaypointIndex + 1 < _objectives.PatrolRoute.Length)
                 _nextWaypointIndex++;
             else
                 _nextWaypointIndex = 0;
 
-            Vector3 nextWaypoint = _objectives.Route[_nextWaypointIndex];
+            Vector3 nextWaypoint = _objectives.PatrolRoute[_nextWaypointIndex];
 
             _movement.MoveToPosition(nextWaypoint);
         }

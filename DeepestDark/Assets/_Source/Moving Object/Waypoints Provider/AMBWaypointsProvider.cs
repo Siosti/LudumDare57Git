@@ -5,6 +5,6 @@ namespace MovingObjectSystem.WaypointsProvider
 {
     public abstract class AMBWaypointsProvider : MonoBehaviour
     {
-        public abstract ReadOnlyCollection<Vector3> Waypoints { get; }
+        public abstract Vector3[] Waypoints { get; }
     }
 }

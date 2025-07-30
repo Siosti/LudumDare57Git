@@ -295,7 +295,7 @@ Transform:
   m_GameObject: {fileID: 1057448455905926465}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 38.19, y: -30.26, z: -10}
+  m_LocalPosition: {x: -2.27, y: -27.6, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -777,7 +777,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1625,19 +1625,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3450875606597087926, guid: 0013cd1de085e3445a1aa4c2021bf8bd, type: 3}
       propertyPath: m_LocalBounds.m_Center.x
-      value: 0.025349855
+      value: 0.036200047
       objectReference: {fileID: 0}
     - target: {fileID: 3450875606597087926, guid: 0013cd1de085e3445a1aa4c2021bf8bd, type: 3}
       propertyPath: m_LocalBounds.m_Center.y
-      value: -0.05334997
+      value: -0.04910016
       objectReference: {fileID: 0}
     - target: {fileID: 3450875606597087926, guid: 0013cd1de085e3445a1aa4c2021bf8bd, type: 3}
       propertyPath: m_LocalBounds.m_Extent.x
-      value: 6.30105
+      value: 6.3068
       objectReference: {fileID: 0}
     - target: {fileID: 3450875606597087926, guid: 0013cd1de085e3445a1aa4c2021bf8bd, type: 3}
       propertyPath: m_LocalBounds.m_Extent.y
-      value: 5.28505
+      value: 5.2748003
       objectReference: {fileID: 0}
     - target: {fileID: 6151254393337206725, guid: 0013cd1de085e3445a1aa4c2021bf8bd, type: 3}
       propertyPath: m_LocalPosition.x

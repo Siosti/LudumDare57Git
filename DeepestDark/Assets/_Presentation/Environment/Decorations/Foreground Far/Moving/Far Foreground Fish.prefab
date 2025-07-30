@@ -50,15 +50,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1950002978813923786, guid: 6e615e98186522f4e8ae28a438c5aced, type: 3}
       propertyPath: m_SortingLayer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1950002978813923786, guid: 6e615e98186522f4e8ae28a438c5aced, type: 3}
       propertyPath: m_SortingLayerID
-      value: -1535927425
+      value: -2043363751
       objectReference: {fileID: 0}
     - target: {fileID: 5282092640208908323, guid: 6e615e98186522f4e8ae28a438c5aced, type: 3}
       propertyPath: m_Name
-      value: Foreground Fish
+      value: Far Foreground Fish
       objectReference: {fileID: 0}
     - target: {fileID: 6065209942398304540, guid: 6e615e98186522f4e8ae28a438c5aced, type: 3}
       propertyPath: m_LocalScale.x
